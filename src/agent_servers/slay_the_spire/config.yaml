@@ -1,0 +1,11 @@
+# logging: true
+env_name: SlayTheSpire
+log_path: "logs"
+agent:
+  llm_name: gpt-4o
+  api_key: "token-abc123"
+  api_base_url: "http://YOUR_LOCAL_IP:PORT/v1"
+  temperature: 0.0
+  repetition_penalty: 1.0
+  agent_type: zeroshot_agent
+  prompt_path: agent_servers.slay_the_spire.prompts.semantic.zeroshot_agent

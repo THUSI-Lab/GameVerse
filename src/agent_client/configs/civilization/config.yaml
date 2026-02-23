@@ -1,0 +1,30 @@
+# Civilization 游戏主配置
+env_name: "Civilization"
+log_path: "logs"
+runner:
+  max_steps: 200  
+
+env:
+  task: ""  # 
+  action_mode: "gui"  # "gui" 模式
+
+  window_title: "Sid Meier's Civilization VI (DX12)"  # 游戏窗口标题
+  milestone_model: "gemini-2.0-flash-exp"  # 用于提取里程碑的模型（通常是gemini-2.5-pro或gemini-2.0-flash-exp）
+  coor_trans: true  # 是否启用坐标转换 (1000x1000 -> 实际分辨率)
+
+# Supported LLM models:
+# - OpenAI: gpt-4o, gpt-4o-mini
+# - Google: gemini-2.5-flash, gemini-2.5-pro
+# - Qwen: qwen3-vl-8b-instruct, qwen3-vl-32b-instruct
+# - Seed: doubao-seed-1-8-251228
+agent:
+  llm_name: gpt-4o-mini
+  api_key: "token-abc123"
+  api_base_url: "https://api.openai.com/v1"
+  temperature: 0.0
+  repetition_penalty: 1.0
+  agent_type: memory_agent
+  prompt_path: agent_servers.civilization.prompts.gui.memory_agent
+  log_path: ""  # 会被自动设置
+  use_reflection: true  # 启用视频反思经验
+  reflection_format: "json"  # 经验文件格式

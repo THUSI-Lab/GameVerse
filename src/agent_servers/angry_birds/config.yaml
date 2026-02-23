@@ -1,0 +1,13 @@
+# logging: true
+env_name: "AngryBirds"
+log_path: ./logs/AngryBirds
+
+agent:
+  llm_name: gpt-4o  # 需要视觉能力的模型
+  temperature: 0.0
+  repetition_penalty: 1.0
+  agent_type: zeroshot_agent
+  prompt_path: agent_servers.angry_birds.prompts.image.zeroshot_agent
+  
+  api_key: "YOUR_API_KEY"
+  api_base_url: "https://api.openai.com/v1"

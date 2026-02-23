@@ -1,0 +1,18 @@
+# logging: true
+env_name: "TicTacToe"
+log_path: ./logs
+env:
+  task: "play"
+  ai_opponent: "minimax"  # "minimax", "random", or "none"
+  player_mark: "X"  # "X" or "O"
+  action_mode: "gui"  # "semantic" (high-level) or "gui" (low-level mouse clicks)
+agent:
+  llm_name: gpt-4o-mini # Qwen/Qwen2.5-7B-Instruct
+  api_key: "token-abc123"
+  api_base_url: "http://YOUR_LOCAL_IP:PORT/v1"
+  temperature: 0.0
+  repetition_penalty: 1.0
+  agent_type: zeroshot_agent
+  prompt_path: agent_servers.tic_tac_toe.prompts.text.zeroshot_agent
+runner:
+  max_steps: 20

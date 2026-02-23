@@ -1,0 +1,20 @@
+# Maze Agent Server Configuration
+env_name: "Maze"
+log_path: ./logs
+env:
+  task: "Navigate the ball to the red flag"
+  action_mode: "semantic"  # "semantic" or "gui"
+  window_title: "Maze Game"
+  milestone_model: "gemini-2.0-flash-exp"
+  size: 4  # 迷宫大小 (size×size)
+agent:
+  llm_name: gemini-2.5-pro
+  api_key: "token-abc123"
+  api_base_url: "http://YOUR_LOCAL_IP:PORT/v1"
+  temperature: 0.0
+  repetition_penalty: 1.0
+  agent_type: zeroshot_agent
+  prompt_path: agent_servers.maze.prompts.semantic.zeroshot_agent
+runner:
+  max_steps: 100
+

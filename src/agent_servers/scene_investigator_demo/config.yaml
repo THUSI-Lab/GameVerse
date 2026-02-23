@@ -1,0 +1,18 @@
+# logging: true
+env_name: "SceneInvestigatorDemo"
+log_path: ./logs
+env:
+  task: "Investigate the scene and solve the puzzle"
+  action_mode: "gui"
+  window_title: "Scene Investigators (Demo)"
+agent:
+  llm_name: gpt-4o # Qwen/Qwen2.5-7B-Instruct
+  api_key: "token-abc123"
+  api_base_url: "http://YOUR_LOCAL_IP:PORT/v1"
+  temperature: 0.0
+  repetition_penalty: 1.0
+  agent_type: zeroshot_agent
+  prompt_path: agent_servers.scene_investigator_demo.prompts.gui.zeroshot_agent
+runner:
+  max_steps: 1000
+

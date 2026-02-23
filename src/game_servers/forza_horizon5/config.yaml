@@ -1,0 +1,4 @@
+# Forza Horizon 5 Game Server Configuration
+game_name: "ForzaHorizon5"
+window_title: "Forza Horizon 5"
+action_mode: "gui"

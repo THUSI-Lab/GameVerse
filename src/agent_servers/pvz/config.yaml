@@ -1,0 +1,12 @@
+# Plants vs. Zombies Agent Configuration
+env_name: "PlantsVsZombies"
+log_path: ./logs
+
+agent:
+  llm_name: gemini-2.5-flash
+  api_key: "your-api-key"
+  api_base_url: "https://api.openai.com/v1"
+  temperature: 0.0
+  repetition_penalty: 1.0
+  agent_type: zeroshot_agent
+  prompt_path: agent_servers.pvz.prompts.semantic.zeroshot_agent

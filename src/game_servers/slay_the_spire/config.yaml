@@ -1,0 +1,11 @@
+# logging: true
+env_name: SlayTheSpire
+log_path: "logs"
+env:
+  task: "Slay the Spire"
+  player_class: "IRONCLAD"
+  ascension_level: 0
+  seed: 0
+  action_mode: "semantic"
+  mod_input_path: "./data/slay_the_spire/mod_input.txt"
+  mod_output_path: "./data/slay_the_spire/mod_output.txt"

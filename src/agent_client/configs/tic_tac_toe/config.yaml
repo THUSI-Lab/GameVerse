@@ -1,0 +1,38 @@
+env_name: TicTacToe
+log_path: logs
+runner:
+  max_steps: 20
+env:
+  task: Play Tic Tac Toe and try to win
+  ai_opponent: minimax
+  player_mark: X
+  action_mode: gui
+  milestone_model: gemini-2.0-flash-exp
+  coor_trans: false  # 是否启用坐标转换 (1000x1000 -> 实际分辨率)
+
+# Supported LLM models:
+# - OpenAI: gpt-4o, gpt-4o-mini
+# - Google: gemini-2.5-flash, gemini-2.5-pro
+# - Qwen: qwen3-vl-8b-instruct, qwen3-vl-32b-instruct
+# - Seed: doubao-seed-1-8-251228
+agent:
+  llm_name: qwen3-vl-32b-instruct
+  api_key: token-abc123
+  api_base_url: http://YOUR_LOCAL_IP:PORT/v1
+  temperature: 0.0
+  repetition_penalty: 1.0
+  agent_type: zeroshot_agent
+  prompt_path: agent_servers.tic_tac_toe.prompts.gui.zeroshot_agent
+  # Embedding模型配置（用于长期记忆）
+  embedding_model: "qwen"  # 可选值: "openai" 或 "qwen"，默认为 "qwen"
+  embedding_config:  # embedding模型额外配置
+    model: "text-embedding-v4"  # qwen embedding模型名称
+    dimensions: 1024  # 向量维度
+  use_reflection: false
+  reflection_format: json
+  reflection_file_path: data/reflections/TicTacToe_reflections.json
+  reflection_generation:
+    failure_video_path: logs\TicTacToe\qwen3-vl-32b-instruct\gui\zeroshot_agent\20251215_190737_run005\obs_video.mp4
+    expert_video_path: data\expertvideo\tic_tac_toe\skill_video.mp4
+    obs_images_dir: logs\TicTacToe\qwen3-vl-32b-instruct\gui\zeroshot_agent\20251215_190737_run005
+    max_length: 1000

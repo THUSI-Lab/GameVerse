@@ -1,0 +1,15 @@
+# logging: true
+env_name: "Snake"
+log_path: ./logs
+env:
+  task: "Control the snake to eat food and avoid obstacles"
+  action_mode: "semantic"  # "semantic" or "gui"
+  board_size: 8
+  num_obstacles: 0
+  seed: 42
+  show_graphic: true
+  max_turns: 100
+agent:
+  llm_name: gpt-4o-mini
+  agent_type: zeroshot_agent
+

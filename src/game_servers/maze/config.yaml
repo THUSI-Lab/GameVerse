@@ -1,0 +1,11 @@
+# Maze Game Server Configuration
+env_name: "Maze"
+log_path: ./logs
+env:
+  task: "Navigate the ball to the red flag"
+  show_graphic: True
+  action_mode: "semantic"  # "semantic" or "gui"
+  window_title: "Maze Game"
+  milestone_model: "gemini-2.0-flash-exp"  # 用于提取里程碑的模型
+  size: 4  # 迷宫大小 (size×size)
+

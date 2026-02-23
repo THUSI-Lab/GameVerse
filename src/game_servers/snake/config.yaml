@@ -1,0 +1,16 @@
+# logging: true
+env_name: "Snake"
+log_path: ./logs
+env:
+  task: "Control the snake to eat food and avoid obstacles"
+  action_mode: "semantic"  # "semantic" or "gui"
+  game_mode: "discrete"    # "discrete" or "realtime"
+  board_size: 10
+  num_obstacles: 0
+  milestone_model: "gemini-2.0-flash-exp"  # 用于提取里程碑的模型（通常是gemini-2.5-pro或gemini-2.0-flash-exp）
+  # coor_trans: false  # 是否启用坐标转换 (1000x1000 -> 实际分辨率)
+
+  # Realtime mode settings (only used when game_mode = "realtime")
+  action_timeout: 20.0     # Timeout for waiting LLM action (seconds). If no action received, move with current direction
+  max_duration: 60.0       # Maximum game duration in seconds
+

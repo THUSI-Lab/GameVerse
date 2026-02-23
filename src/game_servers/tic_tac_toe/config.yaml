@@ -1,0 +1,7 @@
+env_name: TicTacToe
+log_path: ./logs
+env:
+  task: Play Tic Tac Toe and try to win
+  action_mode: gui
+  ai_opponent: minimax
+  player_mark: X

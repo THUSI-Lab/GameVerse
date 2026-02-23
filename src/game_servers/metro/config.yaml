@@ -1,0 +1,9 @@
+# metro 环境配置 
+env_name: "metro"
+log_path: ./logs
+env:
+  task: "design an efficient subway network to transport passengers to their destinations without letting any station overcrowd."  #
+  action_mode: "gui"  # "gui"
+  window_title: "Mini Metro"  # 游戏窗口标题
+  assets_dir: "./src/game_servers/metro/assets/"
+  enable_contour_detection: true  # 是否启用轮廓检测（站点检测）

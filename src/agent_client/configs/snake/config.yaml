@@ -1,0 +1,47 @@
+# logging: true
+env_name: "Snake"
+log_path: "logs"
+runner:
+  max_steps: 100  # Maximum steps in a snake game
+env:
+  task: "Control the snake to eat food and avoid obstacles"
+  action_mode: "semantic"  # "semantic" or "gui"
+  game_mode: "realtime"    # "discrete" or "realtime"
+  board_size: 9
+  num_obstacles: 0
+  milestone_model: "gemini-2.0-flash-exp"  # 用于提取里程碑的模型（通常是gemini-2.5-pro或gemini-2.0-flash-exp）
+  # coor_trans: false  # 是否启用坐标转换 (1000x1000 -> 实际分辨率)
+
+  # Realtime mode settings (only used when game_mode = "realtime")
+  action_timeout: 20.0     # Timeout for waiting LLM action (seconds). If no action received, move with current direction
+  max_duration: 1200.0       # Maximum game duration in seconds
+
+
+# Supported LLM models:
+# - OpenAI: gpt-4o, gpt-4o-mini
+# - Google: gemini-2.5-flash, gemini-2.5-pro
+# - Qwen: qwen3-vl-8b-instruct, qwen3-vl-32b-instruct
+# - Seed: doubao-seed-1-8-251228
+agent:
+  llm_name: gpt-4o-mini
+  api_key: "token-abc123"
+  api_base_url: "http://YOUR_LOCAL_IP:PORT/v1"
+  temperature: 0.0
+  repetition_penalty: 1.0
+  agent_type: zeroshot_agent
+  prompt_path: agent_servers.snake.prompts.semantic.zeroshot_agent
+  # Embedding模型配置（用于长期记忆）
+  embedding_model: "qwen"  # 可选值: "openai" 或 "qwen"，默认为 "qwen"
+  embedding_config:  # embedding模型额外配置
+    model: "text-embedding-v4"  # qwen embedding模型名称
+    dimensions: 1024  # 向量维度
+  # 视频反思相关配置
+  use_reflection: false  # 是否使用视频反思经验（设置为true以启用）
+  reflection_format: "json"  # 经验文件格式：json或txt
+  reflection_file_path: "data/reflections/Snake_reflections.json"  # 直接指定经验文件路径（优先使用，如果未指定则根据game_name和format自动构建）
+  # 视频反思生成配置（用于generate_reflection.py）
+  reflection_generation:
+    failure_video_path: null  # 失败视频路径（必须指定）
+    expert_video_path: null  # 专家视频路径（必须指定）
+    obs_images_dir: null  # obs_images目录路径（用于GPT-4o，可选）
+    max_length: 1000  # 经验文本最大长度

@@ -1,0 +1,36 @@
+# Angry Birds 游戏配置
+env_name: "AngryBirds"
+log_path: ./logs/AngryBirds
+
+env:
+  task: "Destroy all pigs using birds launched from the slingshot"
+  action_mode: "semantic"  # "semantic" (shoot(angle, power)) or "gui" (直接 GUI 动作)
+  window_title: "Angry Birds"  # 游戏窗口标题匹配模式
+  
+  # 弹弓配置 (相对于窗口的比例坐标)
+  slingshot_pos:
+    x: 0.15
+    y: 0.65
+  
+  # 射击参数
+  max_pull_distance: 0.15  # 最大拉弓距离 (相对窗口宽度)
+  
+  # 游戏等待时间
+  wait_after_shot: 5.0  # 射击后等待物理模拟的时间
+  wait_for_ui: 1.0  # UI 操作等待时间
+  
+  # 当前关卡配置
+  scene: 1
+  level: 1
+
+# 关卡数据 (可从外部 JSON 加载)
+levels:
+  "Scene 1":
+    "level 1":
+      bird_number: 3
+      bird_types: ["red", "red", "red"]
+      slingshot_pos: {x: 0.15, y: 0.65}
+    "level 2":
+      bird_number: 5
+      bird_types: ["red", "red", "red", "red", "red"]
+      slingshot_pos: {x: 0.15, y: 0.65}

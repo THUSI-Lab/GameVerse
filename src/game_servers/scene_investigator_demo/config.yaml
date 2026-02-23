@@ -1,0 +1,8 @@
+# logging: true
+env_name: "SceneInvestigatorDemo"
+log_path: ./logs
+env:
+  task: "Investigate the scene and solve the puzzle"
+  action_mode: "gui"  # GUI mode only
+  window_title: "Scene Investigators (Demo)"
+

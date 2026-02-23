@@ -1,0 +1,53 @@
+# Plants vs. Zombies Configuration
+# 
+# 注意：游戏坐标布局常量定义在 game/constants.py 中
+# 如果游戏窗口大小不同，请运行 scripts/pvz_calibrate.py 重新校准
+# 校准后更新 constants.py 中的值
+
+env_name: "PlantsVsZombies"
+log_path: ./logs
+
+env:
+  # 游戏任务描述
+  task: "Defend your house from zombies by strategically placing plants"
+  
+  # 游戏窗口标题（用于查找窗口）
+  window_title: "Plants vs. Zombies"
+  
+  # 游戏可执行文件路径
+  game_path: ""  # 需要用户配置
+  
+  # 动作模式: "semantic" 或 "gui"
+  # semantic: LLM输出语义化动作如 "plant 0 at (2, 3)"
+  # gui: LLM直接输出GUI动作JSON
+  action_mode: "semantic"
+  
+  # YOLO 阳光检测模型路径 (可选)
+  # 如果不配置，将使用基于颜色的检测方法
+  sun_detector_model: ""
+  
+  # 游戏超时设置（秒）
+  timeout: 600
+  
+  # 截图间隔（秒）
+  screenshot_interval: 0.5
+  
+  # ============================================================
+  # 以下坐标配置已移至 game/constants.py 统一管理
+  # 通过 scripts/pvz_calibrate.py 校准得到
+  # 如需覆盖默认值，可在此处配置（优先级高于 constants.py）
+  # ============================================================
+  # grid:
+  #   rows: 5
+  #   cols: 9
+  #   cell_width: 81
+  #   cell_height: 104
+  #   offset_x: 40
+  #   offset_y: 106
+  # 
+  # plant_bar:
+  #   offset_x: 101
+  #   offset_y: 54
+  #   slot_width: 43
+  #   slot_height: 60
+  #   num_slots: 8
