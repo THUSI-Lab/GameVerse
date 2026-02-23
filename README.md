@@ -10,7 +10,7 @@
   <a href="https://arxiv.org/abs/<YOUR_PAPER_ID>">
     <img src="https://img.shields.io/badge/arXiv-Paper-b31b1b.svg?logo=arxiv" alt="arXiv">
   </a>
-  <a href="https://<YOUR_PROJECT_PAGE_URL>">
+  <a href="https://GameVerse-bench.github.io">
     <img src="https://img.shields.io/badge/Project-Page-blue.svg?logo=github" alt="Project Page">
   </a>
   <a href="LICENSE.txt">
@@ -19,7 +19,7 @@
 </p>
 
 <p align="center">
-  <img src="docs/assets/framework.png" alt="GeneralGameBench Framework" width="90%">
+  <img src="docs/assets/framework.png" alt="GeneralGameBench Framework" width="100%">
 </p>
 
 **GameVerse** is a comprehensive benchmark framework designed to evaluate the capabilities of game-playing agents and Vision-Language Models (VLMs) across a diverse set of complex games.
@@ -211,7 +211,7 @@ Recommendation: copy a structurally similar existing game folder and modify incr
 This codebase is built upon and inspired by several excellent open-source projects. We would like to thank the authors of the following repositories:
 
 - [orak](https://github.com/krafton-ai/Orak)
-- [flashadventure](<https://github.com/ahnjaewoo/FlashAdventure>)
+- [FlashAdventure](<https://github.com/ahnjaewoo/FlashAdventure>)
 - [UI-TARS](https://github.com/bytedance/UI-TARS)
 
 ## Citation

@@ -68,8 +68,8 @@ dependencies = [
 ]
 
 [project.urls]
-Repository = "https://github.com/iTheresaApocalypse/GeneralGameBench"
-Issues = "https://github.com/iTheresaApocalypse/GeneralGameBench/issues"
+Repository = "https://github.com/Li-Battery-dc/GameVerse"
+Issues = "https://github.com/Li-Battery-dc/GameVerse/issues"
 
 [tool.black]
 target-version = ["py310"]
