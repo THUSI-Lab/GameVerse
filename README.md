@@ -1,8 +1,8 @@
 <div align="center">
 
-# GameVerse
+# GameVerse: Can Vision-Language Models Learn from Video-based Reflection?
 
-*Kuan Zhang<sup>&ast;</sup>, Dongchen Liu<sup>&ast;</sup>, Qiyue Zhao, Jinkun Hou, Xinran Zhang, Qinlei Xie, Miao Liu, Yiming Li<sup>&dagger;</sup>*
+*Kuan Zhang<sup>&ast;</sup>, Dongchen Liu<sup>&ast;</sup>, Qiyue Zhao, Jinkun Hou, Xinran Zhang, Qinlei Xie, Miao Liu<sup>&dagger;</sup>, Yiming Li<sup>&dagger;</sup>*
 
 </div>
 
@@ -10,7 +10,7 @@
   <a href="https://arxiv.org/abs/<YOUR_PAPER_ID>">
     <img src="https://img.shields.io/badge/arXiv-Paper-b31b1b.svg?logo=arxiv" alt="arXiv">
   </a>
-  <a href="https://GameVerse-bench.github.io">
+  <a href="https://<YOUR_PROJECT_PAGE_URL>">
     <img src="https://img.shields.io/badge/Project-Page-blue.svg?logo=github" alt="Project Page">
   </a>
   <a href="LICENSE.txt">
@@ -19,7 +19,7 @@
 </p>
 
 <p align="center">
-  <img src="docs/assets/framework.png" alt="GeneralGameBench Framework" width="100%">
+  <img src="docs/assets/framework.png" alt="GeneralGameBench Framework" width="90%">
 </p>
 
 **GameVerse** is a comprehensive benchmark framework designed to evaluate the capabilities of game-playing agents and Vision-Language Models (VLMs) across a diverse set of complex games.
@@ -208,11 +208,13 @@ Recommendation: copy a structurally similar existing game folder and modify incr
 
 ## Acknowledgement
 
-This codebase is built upon and inspired by several excellent open-source projects. We would like to thank the authors of the following repositories:
+A huge thanks to the following projects that made this work possible:
 
-- [orak](https://github.com/krafton-ai/Orak)
-- [FlashAdventure](<https://github.com/ahnjaewoo/FlashAdventure>)
-- [UI-TARS](https://github.com/bytedance/UI-TARS)
+🎮 Gaming Loop Framework: Inspired by **[Orak](https://github.com/krafton-ai/Orak)** & **[LMGame-Bench](https://github.com/lmgame-org/GamingAgent)**.
+
+🖱️ GUI Action Space: Action settings are based on **[FlashAdventure](https://github.com/ahnjaewoo/FlashAdventure)** & **[UI-TARS](https://github.com/bytedance/UI-TARS)**.
+
+We are grateful to these authors for their pioneering contributions to the field of GUI agents and gaming benchmarks.
 
 ## Citation
 
