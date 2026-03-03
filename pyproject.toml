@@ -20,10 +20,6 @@ classifiers = [
 authors = [
     { name = "Kuan Zhang", email = "kuanzhang2004@163.com" },
     { name = "Dongchen Liu", email = "liu-dc23@mails.tsinghua.edu.cn" },
-    { name = "Qiyue Zhao", email = ""},
-    { name = "Jinkun Hou", email = ""},
-    { name = "Xinran Zhang", email = ""},
-    { name = "Qinlei Xie", email = ""},
     { name = "Miao Liu", email = "lmaptx4869@gmail.com"},
     { name = "Yiming Li", email = "yimingli9702@gmail.com"}
 ]
