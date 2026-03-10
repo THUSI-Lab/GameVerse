@@ -1,0 +1,46 @@
+{
+    "milestones": [
+    {
+    "timestamp": "00:05 - 00:07",
+    "title": "First Economic Setup",
+    "description": "The player collects the first sun resource and immediately plants the first Sunflower. This crucial step establishes the economy needed to fund defenses for the rest of the level.",
+    "category": "First Attempt",
+    "importance": "High"
+    },
+    {
+    "timestamp": "00:27 - 00:30",
+    "title": "First Enemy Wave Warning",
+    "description": "The text 'The Zombies... are coming...' appears, signaling the end of the safe setup phase and the arrival of the first enemy unit.",
+    "category": "Phase Transition",
+    "importance": "Medium"
+    },
+    {
+    "timestamp": "00:33 - 00:35",
+    "title": "First Defense Deployment",
+    "description": "Responding to the first zombie, the player plants the first Peashooter. This acts as the first combat interaction and establishes the defensive line.",
+    "category": "First Attempt",
+    "importance": "High"
+    },
+    {
+    "timestamp": "01:50 - 01:55",
+    "title": "Huge Wave Alert",
+    "description": "The warning 'A huge wave of zombies is approaching!' appears on screen. This notifies the player of a significant difficulty spike and prompts a check of current defenses.",
+    "category": "Phase Transition",
+    "importance": "Medium"
+    },
+    {
+    "timestamp": "01:58 - 02:00",
+    "title": "Final Wave Start",
+    "description": "The 'Final Wave' text appears, and a Flag Zombie leads the last large group of enemies. This marks the climax of the level.",
+    "category": "Phase Transition",
+    "importance": "High"
+    },
+    {
+    "timestamp": "02:18 - 02:19",
+    "title": "Level Complete & Ability Unlock",
+    "description": "After defeating the final zombie, a Cherry Bomb seed packet drops. The player collects it, unlocking a new explosive plant ability and successfully completing Level 1-2.",
+    "category": "Item Acquisition",
+    "importance": "High"
+    }
+    ]
+    }

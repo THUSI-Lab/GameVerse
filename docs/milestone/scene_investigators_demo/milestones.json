@@ -1,0 +1,88 @@
+{
+  "milestones": [
+  {
+  "timestamp": "00:04 - 00:18",
+  "title": "Start New Game",
+  "description": "The player selects 'New Game', views the introductory text explaining the 'Dinner Party' case, reviews the controls, and enters the game scene by pressing Start.",
+  "category": "Game Start",
+  "importance": "High"
+  },
+  {
+  "timestamp": "00:19 - 00:29",
+  "title": "Discover Birthday Card",
+  "description": "The player examines the first piece of evidence on the table, a birthday card from 'Jake' to 'Clara', establishing the victim's name and the occasion.",
+  "category": "Clue Discovery",
+  "importance": "Medium"
+  },
+  {
+  "timestamp": "00:30 - 00:39",
+  "title": "Find Letter in Drawer",
+  "description": "The player opens a drawer and reads a letter from Clara's mother, providing context on Clara's relationship with Henry and suggesting she 'end things'.",
+  "category": "Clue Discovery",
+  "importance": "Medium"
+  },
+  {
+  "timestamp": "01:03 - 01:15",
+  "title": "Analyze Calendar Dates",
+  "description": "The player examines the wall calendar, noting key dates including Clara's birthday (April 22), a trip to LA, and a doctor's appointment.",
+  "category": "Information Gathering",
+  "importance": "Medium"
+  },
+  {
+  "timestamp": "01:17 - 01:20",
+  "title": "Locate Guest List",
+  "description": "The player finds a handwritten guest list note identifying the attendees: Jake, Edwin, and Jenny.",
+  "category": "Information Gathering",
+  "importance": "Medium"
+  },
+  {
+  "timestamp": "01:59 - 02:25",
+  "title": "Examine Purse Contents",
+  "description": "The player unzips and searches a green purse, finding 'Fantasie Amour' matches, lipstick, and 'Nico Patch' stop-smoking aids, which helps profile the owner.",
+  "category": "Item Inspection",
+  "importance": "Medium"
+  },
+  {
+  "timestamp": "02:30 - 02:39",
+  "title": "Discover Key Logic Note",
+  "description": "The player reads a note on the fridge containing crucial logic puzzles clues: 'Cousin can't drink wine' and 'Ed is left handed'. This is essential for solving the seating arrangement.",
+  "category": "Key Clue Discovery",
+  "importance": "High"
+  },
+  {
+  "timestamp": "02:42 - 02:58",
+  "title": "Find Medical Evidence",
+  "description": "The player finds a 'Benzaclin' pill bottle in the trash prescribed to Henry, with a warning label stating it causes severe liver damage if taken with alcohol.",
+  "category": "Key Clue Discovery",
+  "importance": "High"
+  },
+  {
+  "timestamp": "03:00 - 03:29",
+  "title": "Inspect Wallet and ID",
+  "description": "The player examines a wallet found on a side table, viewing Henry Gibson's ID and business cards for an abortion clinic and an attorney, establishing motive and identity.",
+  "category": "Item Inspection",
+  "importance": "High"
+  },
+  {
+  "timestamp": "03:45 - 04:05",
+  "title": "Scene Reconstruction Analysis",
+  "description": "The player visually analyzes the dining table layout, correlating the fridge note clues (left-handed cutlery, wine vs. juice) to specific seats to deduce who sat where.",
+  "category": "Deduction",
+  "importance": "High"
+  },
+  {
+  "timestamp": "04:09 - 04:29",
+  "title": "Submit Case Answers",
+  "description": "The player returns to the laptop and inputs the deduced answers: identifying seat positions (Jake, Jenny), relationships, the victim (Clara), and the killer.",
+  "category": "Puzzle Solution",
+  "importance": "High"
+  },
+  {
+  "timestamp": "04:30 - 04:35",
+  "title": "Level Completion",
+  "description": "The player receives the final evaluation screen showing a 'Grade A+' and confirmation that 5/5 answers were correct, completing the demo scenario.",
+  "category": "Level Completion",
+  "importance": "High"
+  }
+  ]
+}

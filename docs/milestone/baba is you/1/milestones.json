@@ -1,0 +1,40 @@
+{
+  "milestones": [
+  {
+  "timestamp": "00:00 - 00:02",
+  "title": "Initial Movement",
+  "description": "The player takes control of the character 'Baba' and begins moving around the starting area to assess the puzzle layout and available text blocks.",
+  "category": "First Attempt",
+  "importance": "Low"
+  },
+  {
+  "timestamp": "00:03 - 00:05",
+  "title": "Rule Break: Wall is Stop",
+  "description": "The player pushes the 'STOP' text block away from the phrase 'WALL IS STOP'. This critical puzzle-solving step deactivates the collision rule for walls, allowing objects to pass through them.",
+  "category": "Key Decision",
+  "importance": "High"
+  },
+  {
+  "timestamp": "00:05 - 00:06",
+  "title": "Crossing the Obstacle",
+  "description": "Taking advantage of the broken rule, the player moves Baba directly through the wall tiles that were previously impassable.",
+  "category": "Progress",
+  "importance": "Medium"
+  },
+  {
+    "timestamp": "00:06 - 00:09",
+    "title": "Create Winning Condition",
+    "description": "The player creates a winning condition by moving Baba to push the blocks of 'FLAG/ROCK/BABA', 'IS' and 'WIN' to create the rule 'FLAG/ROCK/BABA IS WIN'.",
+    "category": "Progress",
+    "importance": "Medium"
+  },
+  {
+  "timestamp": "00:09 - 00:12",
+  "title": "Level Completion",
+  "description": "The player moves Baba onto the 'FLAG/ROCK/BABA' object. Because the rule 'FLAG/ROCK/BABA IS WIN' is active, this triggers the victory condition, resulting in the 'CONGRATULATIONS!' screen.",
+  "category": "Level Completion",
+  "importance": "High"
+  }
+  ]
+}
+

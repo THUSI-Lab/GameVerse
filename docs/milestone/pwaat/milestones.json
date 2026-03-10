@@ -1,0 +1,67 @@
+{
+  "milestones": [
+  {
+  "timestamp": "00:41 - 00:45",
+  "title": "Identify Defendant",
+  "description": "Tutorial Question 1: The Judge asks Phoenix to identify the defendant. The player correctly selects 'Larry Butz' (Chinese: 矢张 政志) to proceed.",
+  "category": "Decision Making",
+  "importance": "Low"
+  },
+  {
+  "timestamp": "01:21 - 01:25",
+  "title": "Identify Victim",
+  "description": "Tutorial Question 2: The Judge asks for the victim's name. The player correctly selects 'Cindy Stone' (Chinese: 高日 美佳) from the profiles.",
+  "category": "Decision Making",
+  "importance": "Low"
+  },
+  {
+  "timestamp": "01:34 - 01:38",
+  "title": "Identify Cause of Death",
+  "description": "Tutorial Question 3: The Judge asks for the cause of death. The player correctly answers 'Hit with blunt object' (Chinese: 被钝器殴打) based on the context.",
+  "category": "Decision Making",
+  "importance": "Low"
+  },
+  {
+  "timestamp": "07:10 - 07:18",
+  "title": "Expose Time Contradiction",
+  "description": "Cross-Examination 1: Witness Sahwit claims he saw the defendant at 2:00 PM. The player presents the 'Autopsy Report' (Chinese: 高日 美佳的解剖纪录) to prove the murder actually occurred between 4:00 PM and 5:00 PM.",
+  "category": "Evidence Presentation",
+  "importance": "High"
+  },
+  {
+  "timestamp": "08:22 - 08:30",
+  "title": "Expose TV Logic Hole",
+  "description": "Cross-Examination 2: Sahwit claims he was watching TV and heard the time. The player presents the 'Blackout Record' (Chinese: 停电纪录) to prove the power was out at that time, making it impossible to watch TV.",
+  "category": "Evidence Presentation",
+  "importance": "High"
+  },
+  {
+  "timestamp": "09:38 - 09:48",
+  "title": "Reveal Weapon's Secret",
+  "description": "Cross-Examination 3: Sahwit mentions a 'clock' despite the weapon looking like a statue. The player presents 'The Thinker' (Chinese: 小雕像) to argue that Sahwit could only know it was a clock if he had held it.",
+  "category": "Evidence Presentation",
+  "importance": "High"
+  },
+  {
+  "timestamp": "11:55 - 12:15",
+  "title": "Sound the Clock",
+  "description": "Critical Decision: To prove the clock's time was incorrect, the player chooses to have the clock declare the time in court. It chimes 9:25 when the real time is 11:25, revealing a 2-hour discrepancy.",
+  "category": "Key Step",
+  "importance": "High"
+  },
+  {
+  "timestamp": "14:10 - 14:20",
+  "title": "Solve the Time Gap",
+  "description": "Final Evidence: The player presents the 'Passport' (Chinese: 护照) to explain the 2-hour clock discrepancy. It proves the victim had just returned from New York and hadn't reset the clock, explaining why Sahwit heard '2:00' during the 4:00 PM murder.",
+  "category": "Evidence Presentation",
+  "importance": "High"
+  },
+  {
+  "timestamp": "15:05 - 15:10",
+  "title": "Not Guilty Verdict",
+  "description": "Case Closed: After unmasking Frank Sahwit as the true killer, the Judge declares the defendant Larry Butz 'Not Guilty' (Chinese: 无罪).",
+  "category": "Level Completion",
+  "importance": "High"
+  }
+  ]
+}

@@ -1,0 +1,74 @@
+{
+  "milestones": [
+    {
+      "timestamp": "01.05 - 03.12",
+      "title": "First Control: The Journey Begins",
+      "description": "First gameplay: Players take control of Arthur Morgan for the first time, following Dutch van der Linde through a blizzard toward the abandoned mining town of Colter.",
+      "category": "First Attempt",
+      "importance": "Medium"
+    },
+    {
+      "timestamp": "05.45 - 07.20",
+      "title": "Arrival at Adler Ranch",
+      "description": "New Area: The gang arrives at an O'Driscoll hideout (Adler Ranch). Dutch attempts to negotiate, setting the stage for the first conflict.",
+      "category": "Exploration",
+      "importance": "Low"
+    },
+    {
+      "timestamp": "07.22 - 09.15",
+      "title": "First Gunfight",
+      "description": "Combat Tutorial: Negotiations fail, triggering the first shootout. Players learn aiming and cover mechanics while defeating O'Driscoll members.",
+      "category": "Combat",
+      "importance": "High"
+    },
+    {
+      "timestamp": "11.30 - 12.45",
+      "title": "Looting Supplies",
+      "description": "Item Acquisition: Arthur enters the cabin to search for supplies. This teaches the looting mechanic, providing essential consumables like food and medicine.",
+      "category": "Item Acquisition",
+      "importance": "Medium"
+    },
+    {
+      "timestamp": "13.10 - 13.55",
+      "title": "Barn Ambush & Interrogation",
+      "description": "Melee & Choice: While investigating the barn, Arthur is ambushed by a hiding O'Driscoll. Players engage in their first melee fight and make their first moral choice (spare or kill).",
+      "category": "Decision",
+      "importance": "High"
+    },
+    {
+      "timestamp": "14.15 - 15.40",
+      "title": "Meeting Sadie Adler",
+      "description": "New Character: Arthur discovers the widow Sadie Adler in the ranch basement. This is a pivotal story moment introducing a key supporting character.",
+      "category": "Narrative",
+      "importance": "High"
+    },
+    {
+      "timestamp": "18.20 - 19.10",
+      "title": "Mission Complete: Outlaws from the West",
+      "description": "Level Completion: The group returns to Colter. The mission ends, displaying medal rankings and completion stats for the first Chapter 1 mission.",
+      "category": "Level Completion",
+      "importance": "High"
+    },
+    {
+      "timestamp": "20.15 - 21.30",
+      "title": "Mission Start: Enter, Pursued by a Memory",
+      "description": "New Mission: Abigail asks Arthur to find John Marston. Arthur sets out into the snowy mountains with Javier Escuella, marking the start of the second main mission.",
+      "category": "Key Step",
+      "importance": "Medium"
+    },
+    {
+      "timestamp": "25.10 - 26.45",
+      "title": "Wolf Encounter",
+      "description": "Enemy Encounter: While tracking John's horse, Arthur and Javier are attacked by a wolf pack. Players must use the Sawed-off Shotgun for self-defense while riding.",
+      "category": "Boss Defeated",
+      "importance": "High"
+    },
+    {
+      "timestamp": "29.15 - 30.10",
+      "title": "Finding John Marston",
+      "description": "Key Step: Arthur and Javier find an injured John Marston trapped on a snow-covered cliffside, completing the search phase of the mission.",
+      "category": "Narrative",
+      "importance": "High"
+    }
+  ]
+}

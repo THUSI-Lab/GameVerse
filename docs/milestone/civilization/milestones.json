@@ -1,0 +1,88 @@
+{
+    "milestones": [
+    {
+    "timestamp": "00.03 - 00.08",
+    "title": "Found First City",
+    "description": "Found Capital: The player moves the Settler to the recommended spot and establishes the first city, 'Ra-Kedet', marking the beginning of the civilization.",
+    "category": "City Building",
+    "importance": "High"
+    },
+    {
+    "timestamp": "00.32 - 00.37",
+    "title": "Select First Technology",
+    "description": "Technology Research: The player opens the technology tree and selects 'Mining' as the first research project to unlock resource harvesting capabilities.",
+    "category": "Research",
+    "importance": "Medium"
+    },
+    {
+    "timestamp": "01.36 - 01.40",
+    "title": "Tribal Village Discovery",
+    "description": "Exploration Reward: The player's Warrior unit enters a Tribal Village (Goody Hut) and receives a free Scout unit, significantly boosting early exploration.",
+    "category": "Exploration",
+    "importance": "Medium"
+    },
+    {
+    "timestamp": "04.03 - 04.08",
+    "title": "Meet Rival Civilization",
+    "description": "Diplomatic Contact: The player encounters the scout of a rival civilization (Egypt/Cleopatra) for the first time, initiating diplomatic relations.",
+    "category": "Diplomacy",
+    "importance": "High"
+    },
+    {
+    "timestamp": "04.26 - 04.29",
+    "title": "Discover Natural Wonder",
+    "description": "Exploration Discovery: The scout discovers the 'Eye of the Sahara' natural wonder, providing Era Score and astrology boost.",
+    "category": "Exploration",
+    "importance": "Medium"
+    },
+    {
+    "timestamp": "06.00 - 06.05",
+    "title": "Found Second City",
+    "description": "Expansion: The player uses a newly produced Settler to found the second city, 'Shedet', expanding the empire's territory and production capacity.",
+    "category": "Expansion",
+    "importance": "High"
+    },
+    {
+    "timestamp": "07.04 - 07.10",
+    "title": "Place Campus District",
+    "description": "City Planning: The player places a Campus district in a location adjacent to mountains to secure a +2 Science adjacency bonus.",
+    "category": "City Planning",
+    "importance": "Medium"
+    },
+    {
+    "timestamp": "09.21 - 09.28",
+    "title": "Optimize Military Policy",
+    "description": "Policy Change: In the Government screen, the player slots the 'Agoge' policy card to gain +50% production toward melee and ranged units, preparing for war.",
+    "category": "Governance",
+    "importance": "High"
+    },
+    {
+    "timestamp": "10.55 - 11.00",
+    "title": "Declare Surprise War",
+    "description": "Declaration of War: The player formally declares a 'Surprise War' on the rival civilization to seize a strategic opportunity.",
+    "category": "Combat",
+    "importance": "High"
+    },
+    {
+    "timestamp": "11.01 - 11.06",
+    "title": "Capture Enemy Settler",
+    "description": "Tactical Advantage: Immediately after declaring war, the player uses a Warrior to capture an undefended enemy Settler, effectively stealing a city's worth of production.",
+    "category": "Combat",
+    "importance": "High"
+    },
+    {
+    "timestamp": "11.12 - 11.16",
+    "title": "Found City with Captured Unit",
+    "description": "Immediate Expansion: The player uses the captured Settler to immediately found a third city on the spot, turning the enemy's loss into an instant gain.",
+    "category": "Expansion",
+    "importance": "Medium"
+    },
+    {
+    "timestamp": "16.38 - 16.48",
+    "title": "Capture Capital & Victory",
+    "description": "Domination Victory: The player's forces successfully siege and capture the enemy capital, eliminating the rival civilization and triggering the Domination Victory cinematic.",
+    "category": "Victory",
+    "importance": "High"
+    }
+    ]
+}

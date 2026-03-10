@@ -1,0 +1,53 @@
+{
+    "milestones": [
+      {
+        "timestamp": "0:00 - 0:01",
+        "title": "Planting First Peashooter",
+        "description": "The player plants the first Peashooter on the lawn to begin the defense against the incoming zombies.",
+        "category": "First Attempt",
+        "importance": "High"
+      },
+      {
+        "timestamp": "0:03 - 0:05",
+        "title": "First Sun Collection",
+        "description": "The player collects the first sun falling from the sky, which is the primary resource for planting more units.",
+        "category": "Item Acquisition",
+        "importance": "High"
+      },
+      {
+        "timestamp": "0:08 - 0:10",
+        "title": "Planting Second Peashooter",
+        "description": "The player plants a second Peashooter, doubling their firepower to prepare for the wave of zombies.",
+        "category": "Strategy/Upgrade",
+        "importance": "Medium"
+      },
+      {
+        "timestamp": "0:14 - 0:16",
+        "title": "First Zombie Appearance",
+        "description": "The first zombie enters the lawn from the right side, marking the beginning of the active combat phase.",
+        "category": "Combat",
+        "importance": "High"
+      },
+      {
+        "timestamp": "0:22 - 0:24",
+        "title": "Defeating First Zombie",
+        "description": "The Peashooters successfully defeat the first zombie, preventing it from reaching the house.",
+        "category": "Combat",
+        "importance": "Medium"
+      },
+      {
+        "timestamp": "0:43 - 0:45",
+        "title": "Final Wave Triggered",
+        "description": "The 'Final Wave' text appears on the screen, indicating the last set of zombies for the level are approaching.",
+        "category": "Level Progress",
+        "importance": "High"
+      },
+      {
+        "timestamp": "0:56 - 0:58",
+        "title": "Level 1-1 Completed & Sunflower Unlocked",
+        "description": "The player defeats all zombies in Level 1-1 and is rewarded with a Sunflower seed packet, unlocking a new plant for future levels.",
+        "category": "Level Completion",
+        "importance": "High"
+      }
+    ]
+  }

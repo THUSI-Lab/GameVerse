@@ -1,0 +1,32 @@
+{
+  "milestones": [
+  {
+  "timestamp": "00:00 - 00:01",
+  "title": "Initiate Movement and Object Interaction",
+  "description": "The player begins the level by moving the character 'Baba' to the right. Upon movement, Baba immediately interacts with the 'ROCK IS PUSH' rule by pushing the row of rocks blocking the path.",
+  "category": "Gameplay Action",
+  "importance": "Medium"
+  },
+  {
+  "timestamp": "00:01 - 00:02",
+  "title": "Clear Obstacles",
+  "description": "The player continues moving right, successfully pushing the rocks out of the way to clear a direct path to the target object (the Flag). This demonstrates the successful execution of the puzzle's solution.",
+  "category": "Puzzle Solving",
+  "importance": "Medium"
+  },
+  {
+  "timestamp": "00:02 - 00:03",
+  "title": "Trigger Win Condition",
+  "description": "The player character reaches and touches the Flag. Since the rule 'FLAG IS WIN' is active, this action satisfies the victory condition for the level.",
+  "category": "Key Objective",
+  "importance": "High"
+  },
+  {
+  "timestamp": "00:03 - 00:04",
+  "title": "Level Completion",
+  "description": "The 'CONGRATULATIONS!' text appears on screen with visual effects, confirming that the level has been successfully completed.",
+  "category": "Level Completion",
+  "importance": "High"
+  }
+  ]
+  }

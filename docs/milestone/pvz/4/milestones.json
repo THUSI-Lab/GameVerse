@@ -1,0 +1,46 @@
+{
+    "milestones": [
+    {
+    "timestamp": "00:00 - 00:05",
+    "title": "Level Start",
+    "description": "The game begins with the iconic 'Ready... Set... Plant!' announcement, marking the start of the level and the player's defense preparation.",
+    "category": "Level Start",
+    "importance": "Medium"
+    },
+    {
+    "timestamp": "00:08 - 00:10",
+    "title": "First Economic Setup",
+    "description": "The player plants the first Sunflower. This is a crucial initial step to establish the sun economy required to purchase defensive plants.",
+    "category": "First Attempt",
+    "importance": "High"
+    },
+    {
+    "timestamp": "00:35 - 00:38",
+    "title": "First Defensive Action",
+    "description": "The player plants the first Peashooter to counter the initial approaching zombie, establishing the first line of defense.",
+    "category": "First Attempt",
+    "importance": "Medium"
+    },
+    {
+    "timestamp": "01:59 - 02:03",
+    "title": "Countering Buckethead Zombie",
+    "description": "A Buckethead Zombie (high defense enemy) enters. The player strategically plants a Wall-nut to block its path, buying time for the offensive plants to defeat it.",
+    "category": "Strategic Decision",
+    "importance": "Medium"
+    },
+    {
+    "timestamp": "03:10 - 03:15",
+    "title": "Huge Wave Event",
+    "description": "The warning text 'A huge wave of zombies is approaching!' appears, signaling the climax of the level where a large number of enemies spawn simultaneously.",
+    "category": "Key Event",
+    "importance": "High"
+    },
+    {
+    "timestamp": "03:30 - 03:33",
+    "title": "Level Complete & Shovel Unlocked",
+    "description": "The final zombie is defeated and a Shovel item appears. The player collects it, completing the level and unlocking the ability to dig up plants.",
+    "category": "Item Acquisition",
+    "importance": "High"
+    }
+    ]
+}

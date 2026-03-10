@@ -1,0 +1,53 @@
+{
+  "milestones": [
+    {
+      "timestamp": "02.45 - 03.10",
+      "title": "First Control",
+      "description": "Initial Movement: Players gain control of their character for the first time on the beach, following Paimon's instructions to learn basic movement controls.",
+      "category": "First Attempt",
+      "importance": "Low"
+    },
+    {
+      "timestamp": "07.25 - 08.05",
+      "title": "Unlocking Statue of The Seven",
+      "description": "Unlock Map & Elemental Power: Players interact with the first Statue of The Seven at Starfell Lake, unlocking the regional map and obtaining the power of Anemo.",
+      "category": "Ability Unlock",
+      "importance": "High"
+    },
+    {
+      "timestamp": "08.45 - 09.30",
+      "title": "First Combat Encounter",
+      "description": "Slime Battle: Players encounter enemies (Slimes) for the first time and complete a combat tutorial using their newly acquired Elemental Skill.",
+      "category": "Combat Tutorial",
+      "importance": "Medium"
+    },
+    {
+      "timestamp": "12.15 - 13.45",
+      "title": "Encountering Dvalin",
+      "description": "The Dragon Appears: Players enter Whispering Woods and trigger a cutscene where the dragon Dvalin (Stormterror) interacts with a mysterious bard (Venti), obtaining a Teardrop Crystal afterwards.",
+      "category": "Story Progression",
+      "importance": "High"
+    },
+    {
+      "timestamp": "15.20 - 16.45",
+      "title": "Meeting Amber",
+      "description": "New Team Member: Players meet Amber, Outrider of the Knights of Favonius, on the way to Mondstadt. She joins the party, unlocking the Archer class and character switching mechanics.",
+      "category": "Character Acquisition",
+      "importance": "High"
+    },
+    {
+      "timestamp": "18.10 - 19.25",
+      "title": "Clearing Hilichurl Camp",
+      "description": "Combat Application: Using Amber's bow and the Traveler's Anemo skills, players clear a nearby Hilichurl camp to proceed, demonstrating elemental interactions.",
+      "category": "Level Completion",
+      "importance": "Medium"
+    },
+    {
+      "timestamp": "23.40 - 24.55",
+      "title": "Arrival at Mondstadt",
+      "description": "Entering Major City: Players cross the bridge (startling Timmie's pigeons) and enter the gates of Mondstadt, marking the end of the prologue tutorial phase.",
+      "category": "Area Unlock",
+      "importance": "High"
+    }
+  ]
+}
