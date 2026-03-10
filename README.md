@@ -224,6 +224,6 @@ We are grateful to these authors for their pioneering contributions to the field
 	author={Zhang, Kuan and Liu, Dongchen and Zhao, Qiyue and Hou, Jinkun and Zhang, Xinran and Xie, Qinlei and Liu, Miao and Li, Yiming},
 	journal={arXiv},
 	year={2026},
-	url={}
+	url={https://arxiv.org/abs/2603.06656}
 }
 ```
