@@ -2,7 +2,7 @@
 
 # GameVerse: Can Vision-Language Models Learn from Video-based Reflection?
 
-*Kuan Zhang<sup>&ast;</sup>, Dongchen Liu<sup>&ast;</sup>, Qiyue Zhao, Jinkun Hou, Xinran Zhang, Qinlei Xie, Miao Liu<sup>&dagger;</sup>, Yiming Li<sup>&dagger;</sup>*
+*[Kuan Zhang](https://itheresaapocalypse.github.io/academicpages.github.io/)<sup>&ast;</sup>, [Dongchen Liu](https://li-battery-dc.github.io/)<sup>&ast;</sup>, Qiyue Zhao, Jinkun Hou, Xinran Zhang, Qinlei Xie, [Miao Liu](https://aptx4869lm.github.io/)<sup>&dagger;</sup>, [Yiming Li](https://yimingli-page.github.io/)<sup>&dagger;</sup>*
 
 </div>
 
