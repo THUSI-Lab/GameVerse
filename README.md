@@ -7,10 +7,10 @@
 </div>
 
 <p align="center">
-  <a href="https://arxiv.org/abs/<YOUR_PAPER_ID>">
+  <a href="https://arxiv.org/abs/2603.06656">
     <img src="https://img.shields.io/badge/arXiv-Paper-b31b1b.svg?logo=arxiv" alt="arXiv">
   </a>
-  <a href="https://<YOUR_PROJECT_PAGE_URL>">
+  <a href="https://GameVerse-bench.github.io">
     <img src="https://img.shields.io/badge/Project-Page-blue.svg?logo=github" alt="Project Page">
   </a>
   <a href="LICENSE.txt">
