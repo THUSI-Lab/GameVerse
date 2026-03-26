@@ -6,7 +6,7 @@ import os
 import logging
 import json
 from pathlib import Path
-from typing import Optional, List, Dict, Tuple
+from typing import Optional, List, Dict, Tuple, Callable
 import imageio
 import numpy as np
 from PIL import Image
@@ -880,8 +880,12 @@ def reflect_from_videos(
     
     logger.info(f"失败分析结果: {failure_analysis[:1000]}...")
     
+    # 消融实验：当专家视频为空时，直接返回失败视频反思
+    if not expert_video_path:
+        return failure_analysis
+
     # 检查专家视频是否存在
-    if not expert_video_path or not os.path.exists(expert_video_path):
+    if not os.path.exists(expert_video_path):
         raise ValueError(f"专家视频不存在: {expert_video_path}")
     
     # 第二阶段：基于失败分析，从专家视频中学习经验
@@ -896,6 +900,76 @@ def reflect_from_videos(
     )
     
     return reflection_text
+
+
+def reflect_from_multiple_failure_videos(
+    llm,
+    model_name: str,
+    game_name: str,
+    failure_video_paths: List[str],
+    expert_video_path: Optional[str] = None,
+    obs_images_dirs: Optional[List[Optional[str]]] = None,
+    max_length: int = 1000,
+    merge_reflections_fn: Optional[Callable[[List[str], List[str], str], str]] = None
+) -> str:
+    """
+    Multi-video reflection: generate reflection per failure video, then concatenate.
+
+    Args:
+        llm: LLM实例
+        model_name: 模型名称
+        game_name: 游戏名称
+        failure_video_paths: 失败视频路径列表
+        expert_video_path: 专家视频路径
+        obs_images_dirs: 与 failure_video_paths 对应的 obs_images 目录列表（可选）
+        max_length: 经验文本最大长度
+        merge_reflections_fn: 拼接函数（由 generate_reflection.py 传入）
+
+    Returns:
+        拼接后的整体经验文本
+    """
+    if not failure_video_paths:
+        raise ValueError("failure_video_paths is empty for multi-video reflection")
+
+    if obs_images_dirs and len(obs_images_dirs) < len(failure_video_paths):
+        obs_images_dirs = obs_images_dirs + [None] * (len(failure_video_paths) - len(obs_images_dirs))
+
+    per_video_reflections: List[str] = []
+    for idx, failure_video_path in enumerate(failure_video_paths, start=1):
+        obs_images_dir = None
+        if obs_images_dirs and idx - 1 < len(obs_images_dirs):
+            obs_images_dir = obs_images_dirs[idx - 1]
+
+        logger.info(f"Multi-video reflection: processing failure video {idx}/{len(failure_video_paths)}")
+        reflection_text = reflect_from_videos(
+            llm=llm,
+            model_name=model_name,
+            game_name=game_name,
+            failure_video_path=failure_video_path,
+            expert_video_path=expert_video_path,
+            obs_images_dir=obs_images_dir,
+            max_length=max_length
+        )
+
+        if reflection_text and reflection_text.strip():
+            per_video_reflections.append(reflection_text.strip())
+
+    if not per_video_reflections:
+        raise ValueError("Failed to generate any valid reflection from multi-video inputs")
+
+    if merge_reflections_fn:
+        return merge_reflections_fn(per_video_reflections, failure_video_paths, game_name)
+
+    # Fallback simple concatenation
+    header = [
+        f"Multi-video reflection summary for {game_name}.",
+        "The following experience is concatenated from multiple failure videos.",
+        f"Total failure videos: {len(failure_video_paths)}"
+    ]
+    body = []
+    for i, text in enumerate(per_video_reflections, start=1):
+        body.append(f"\n[Reflection from failure video {i}]\n{text}")
+    return "\n".join(header) + "\n" + "\n".join(body)
 
 
 def find_expert_video(game_name: str, log_path: str) -> Optional[str]:
