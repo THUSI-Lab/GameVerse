@@ -1,6 +1,6 @@
 <div align="center">
 
-# GameVerse: Can Vision-Language Models Learn from Video-based Reflection?
+# [ICML 2026] GameVerse: Can Vision-Language Models Learn from Video-based Reflection?
 
 *[Kuan Zhang](https://itheresaapocalypse.github.io/academicpages.github.io/)<sup>&ast;</sup>, [Dongchen Liu](https://li-battery-dc.github.io/)<sup>&ast;</sup>, Qiyue Zhao, Jinkun Hou, Xinran Zhang, Qinlei Xie, [Miao Liu](https://aptx4869lm.github.io/)<sup>&dagger;</sup>, [Yiming Li](https://yimingli-page.github.io/)<sup>&dagger;</sup>*
 
