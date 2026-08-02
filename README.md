@@ -222,7 +222,7 @@ We are grateful to these authors for their pioneering contributions to the field
 @article{gameverse2026,
 	title={GameVerse: Can Vision-Language Models Learn from Video-based Reflection?},
 	author={Zhang, Kuan and Liu, Dongchen and Zhao, Qiyue and Hou, Jinkun and Zhang, Xinran and Xie, Qinlei and Liu, Miao and Li, Yiming},
-	journal={arXiv},
+	journal={arXiv preprint arXiv:2603.06656},
 	year={2026},
 	url={https://arxiv.org/abs/2603.06656}
 }
